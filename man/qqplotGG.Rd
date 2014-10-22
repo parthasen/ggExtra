@@ -18,7 +18,7 @@
 	The distrubition of x can be set as \code{\link[stats:qnorm]{qnorm}}, \code{\link[stats:qbinom]{qbinom}}, \code{\link[stats:qnbinom]{qnbinom}}, \code{\link[stats:qhyper]{qhyper}}, \code{\link[stats:qpois]{qpois}} etc.
 }
 
-\seealso{ \code{link[ggplot2:geom_quantile]{geom_quantile}}}
+\seealso{ \code{\link[ggplot2:geom_quantile]{geom_quantile}}}
 
 \examples{
 \dontrun{

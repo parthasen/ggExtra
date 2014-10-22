@@ -23,7 +23,8 @@
 \examples{
 \dontrun{
 	library(ggExtra)
-	qqplotGG(mtcars$wt) + stat_funEasy("y = x ^ 2 - 1", color = "red", linetype = "dotdash")
+	qqplotGG(mtcars$wt) + stat_funEasy("y = x ^ 2 - 1",
+	 color = "red", linetype = "dotdash")
 
 }
 }

@@ -27,16 +27,14 @@
 	If you want to draw 3 pctures in 2 * 2 subregions like following,
     
                |      (Picture 1)      |
+
                |(Picture 2) (Picture 3)|
 
     you should first set the \emph{matrixmap} as
 
-                    \left[
-                    \begin{array}{cc}
-                    1 & 1\\
-                    2 & 3\\
-                    \end{array}
-                    \right]
+                      |1     1|
+                      
+                      |2     3| 
 
     that is to say matrixmap = matrix(c(1, 2, 1, 3),nrow = 2)
         

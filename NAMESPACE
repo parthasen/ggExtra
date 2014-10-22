@@ -1,5 +1,6 @@
 
 export(ggarrange)
 export(qqplotGG)
+export(stat_funEasy)
 import(ggplot2)
 import(gridExtra)

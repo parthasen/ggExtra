@@ -23,7 +23,7 @@
 \examples{
 \dontrun{
 	library(ggExtra)
-	qqplotGG(mtcars\$wt)
+	qqplotGG(mtcars$wt)
 
 }
 }

@@ -17,4 +17,4 @@ Functions including
 * stat_funEasy: a more easy way to add a function plot. **(haven't been uploaded.)**
 * geom_masaic: masaic plotting using ggplot2 style. **(haven't been uploaded.)**
 
-Find more example about ggplot2 at [ggplot2.org](http://ggplot2.org). If you want to help imrpove, visit `https://github.com/threecifanggen/ggExtra` or email to `huangbaochenwo@live.com`.
+Find more example about ggplot2 at [ggplot2.org](http://ggplot2.org). If you want to help improve, visit `https://github.com/threecifanggen/ggExtra` or email to `huangbaochenwo@live.com`.

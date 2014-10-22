@@ -7,7 +7,7 @@ To install
 * the latest development version: `install_github("threecifanggen/ggExtra")` (Use install_github fuction in `devtools` package.)
 * the latest realest version: **haven't update now.**
 
-Functions including (Functions in bold font have already uploaded.)
+Functions including (functions in bold font have already uploaded.)
 
 * **ggarrange**: arrange more than one ggplot2 objects into one bigger figure.
 * **qqplotGG**: qqplotting using ggplot2 style.

@@ -31,14 +31,12 @@
 
     you should first set the \emph{matrixmap} as
 
-                    \begin{equation}
-                    \left(
+                    \left[
                     \begin{array}{cc}
                     1 & 1\\
                     2 & 3\\
                     \end{array}
-                    \right)
-                    \end{equation}
+                    \right]
 
     that is to say matrixmap = matrix(c(1, 2, 1, 3),nrow = 2)
         

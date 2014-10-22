@@ -4,7 +4,7 @@
 \usage{
 	ggarrange(piclist = NULL, matrixmap = NULL, 
 		widrow = rep(1/nrow(matrixmap),nrow(matrixmap)),
-      	widcol = rep(1/ncol(matrixmap),ncol(matrixmap)))
+      		widcol = rep(1/ncol(matrixmap),ncol(matrixmap)))
 }
 \arguments{
 

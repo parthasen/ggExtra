@@ -37,6 +37,7 @@ ggmasaic <-function (data = NULL,x = NULL, y = NULL, size = 2,
   p <- ggplot() + geom_rect(data = data1,aes(x=x1, y = y1, xmax = xmax ,xmin= xmin, ymin = ymin, ymax = ymax, fill = color1),
                             color="white", size=2) +
     geom_text(data =data1,aes(x = x1, y = y1, label = color2 ),color ="white") +
+    +geom_text(data = NULL, x = unique(x1), label = unique(x[(order(x))]), size = 2)
     theme(
       panel.grid.major =element_line(colour="white"),
       panel.grid.minor =element_line(colour="white",linetype="dashed",size=0.2),
@@ -44,7 +45,6 @@ ggmasaic <-function (data = NULL,x = NULL, y = NULL, size = 2,
       panel.border =element_rect(colour="white",fill=NA,size=2),
       line = element_blank(),
       line = element_blank())+
-    scale_x_continuous(breaks = unique(x1), labels = unique(x[order(x)]))+
     guides(fill = FALSE)
   return(p)
 }

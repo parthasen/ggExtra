@@ -44,8 +44,7 @@ ggmasaic <-function (data = NULL,x = NULL, y = NULL, size = 2,
       panel.border =element_rect(colour="white",fill=NA,size=2),
       line = element_blank(),
       line = element_blank())+
-    geom_text(data = NULL, aes(x =unique(x1), y = 0, label = unique(x[order(x)])), color = "grey")+
+    scale_x_continuous(breaks = unique(x1), labels = unique(x[order(x)]))+
     guides(fill = FALSE)
   return(p)
-  detach(data)
 }

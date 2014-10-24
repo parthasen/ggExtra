@@ -34,7 +34,7 @@ ggmasaic <-function (data = NULL,x = NULL, y = NULL, size = 2,
                       length(unique(x))),
                   sep = "_")
   data1 <- data.frame(x1, y1,xmax, ymax, xmin, ymin, color1,color2) ##include what we want to draw
-  data2 <- data.frame(x = unique(x1), label = unique(x[(order(x))])) ## x-axis drawing
+  data2 <- data.frame(x = unique(x1) ,y= rep(0,length(x1)),label = unique(x[(order(x))])) ## x-axis drawing
   p <- ggplot() + geom_rect(data = data1,aes(x=x1, y = y1, xmax = xmax ,xmin= xmin, ymin = ymin, ymax = ymax, fill = color1),
                             color="white", size=2) +
     geom_text(data =data1,aes(x = x1, y = y1, label = color2 ),color ="white") +

@@ -4,7 +4,7 @@
 \usage{
 	qqplotGG(y = NULL, distribution = qnorm) 
 }
-\argument{
+\arguments{
 	\item{y}{A vector which you want to draw.}
 	\item{distribution}{A distribution the data based.}
 }

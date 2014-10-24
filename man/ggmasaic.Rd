@@ -4,7 +4,7 @@
 \usage{
 	ggmasaic <-function (data = NULL,x = NULL, y = NULL, ygroup = NULL, size = 2, colortype = "group", ...)
 }
-\argument{
+\arguments{
 	\item{x}{The x-axis factor.}
 	\item{ygroup}{The y-axis factor.}
 	\item{y}{Every value of every rectangle.}

@@ -4,7 +4,7 @@
 \usage{
 	stat_funEasy(func, color = "black", size = 0.5, ...) 
 }
-\argument{
+\arguments{
 	\item{func}{A string formula you want to plot, please use "x" and "y" as variables.}
 
 }

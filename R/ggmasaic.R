@@ -38,7 +38,7 @@ ggmasaic <-function (data = NULL,x = NULL, y = NULL, size = 2,
   p <- ggplot() + geom_rect(data = data1,aes(x=x1, y = y1, xmax = xmax ,xmin= xmin, ymin = ymin, ymax = ymax, fill = color1),
                             color="white", size=2) +
     geom_text(data =data1,aes(x = x1, y = y1, label = color2 ),color ="white") +
-    geom_text(data = data2, aes(x = x, label = label, size = 2)) +
+    geom_text(data = data2, aes(x = x, y = y, label = label), size = 2, vjust = 1) +
     theme(
       panel.grid.major =element_line(colour="white"),
       panel.grid.minor =element_line(colour="white",linetype="dashed",size=0.2),

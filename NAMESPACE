@@ -1,4 +1,5 @@
 
+export(ggmasaic)
 export(ggarrange)
 export(qqplotGG)
 export(stat_funEasy)

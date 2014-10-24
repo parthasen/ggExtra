@@ -15,6 +15,6 @@ Functions including (functions in bold font have already uploaded.)
 * ggheatmap_cluster: heatmap plotting with clustering tree using ggplot2 style. **(Still developing)**
 * geom_pie: pie plotting using ggplot2 style. **(haven't been uploaded)**
 * **stat_funEasy**: a more easy way to add a function plot. **(more features will be added)**
-* ggmasaic: masaic plotting using ggplot2 style. **(uploaded already but haven't published.)**
+* ggmasaic: masaic plotting using ggplot2 style. 
 
 Find more example about ggplot2 at [ggplot2.org](http://ggplot2.org). If you want to help improve, visit `https://github.com/threecifanggen/ggExtra` or email to `huangbaochenwo@live.com`.

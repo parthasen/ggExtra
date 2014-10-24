@@ -45,7 +45,7 @@ You can change the possitions and relative size of sub-figures by this fuction.
 
 **ggmasaic** 
 
-![ggmasaic]()
+![ggmasaic](https://raw.githubusercontent.com/threecifanggen/ggExtra/master/image/ggmasaic.png)
 
 Masaic plot is a useful sort of figures in many field of researches and works. And ggmasaic function makes it easy for you to use it in ggplot2 style.
 

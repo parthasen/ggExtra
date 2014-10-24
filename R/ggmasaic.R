@@ -45,6 +45,6 @@ ggmasaic <-function (data = NULL,x = NULL, y = NULL, size = 2,
       line = element_blank(),
       line = element_blank())+
     scale_x_continuous(breaks = unique(x1), labels = unique(x[order(x)]))+
-    guides(fill = FALSE)
+    guides(fill = FALSE)+labs(x = as.character(x), y = as.character(y))
   return(p)
 }

@@ -1,0 +1,10 @@
+ggExtra 1.2.6
+-----------------------------------------------------------
+NEW FEATURES
+
+* New appearance of ggmasaic, y-axis is definited using an-
+notate function.
+
+BUG FIXES AND MINOR IMPROVEMENTS
+
+* Some bugs fixed in ggmasaic.

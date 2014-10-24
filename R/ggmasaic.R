@@ -47,5 +47,5 @@ ggmasaic <-function (data = NULL,x = NULL, y = NULL, size = 2,
       line = element_blank(),
       line = element_blank())+
     guides(fill = FALSE)
-  return(p)
+  return(p) ##这是修改的内容
 }

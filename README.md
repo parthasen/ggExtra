@@ -15,7 +15,7 @@ Functions including (functions in bold font have already uploaded.)
 * ggheatmap: heatmap plotting using ggplot2 style. **(haven't been uploaded.)**
 * ggheatmap_cluster: heatmap plotting with clustering tree using ggplot2 style. **(Still developing)**
 * geom_pie: pie plotting using ggplot2 style. **(haven't been uploaded)**
-* **stat_funEasy**: a more easy way to add a function plot. **(more features will be added)**
+* **stat_funEasy**: a more easy way to add a function plot. **(more features will be added, and when the version changes to 2.x, it will be improved as an algebra plotting system)**
 * **ggmasaic**: masaic plotting using ggplot2 style. 
 
 ##Examples
